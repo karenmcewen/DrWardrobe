@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c63cda333962432c89142a0aa8294e96" Name="Diagram1">
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.Accessory" Width="1.5" PointX="2.5" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.Bottom" Width="1.5" PointX="3.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.Color" Width="1.5" PointX="0.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.NeckWear" Width="1.5" PointX="5.375" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.Occasion" Width="1.5" PointX="5.875" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.OuterWear" Width="1.5" PointX="4.875" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.Outfit" Width="1.5" PointX="8.375" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.Season" Width="1.5" PointX="3.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.Top" Width="1.5" PointX="1.375" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_Accessory_Color" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_Accessory_Occasion" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_Accessory_Season" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_Outfit_Accessory" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_Bottom_Color" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_Bottom_Occasion" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_Bottom_Season" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_Outfit_Bottom" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_NeckWear_Color" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_OuterWear_Color" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_Top_Color" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_NeckWear_Occasion" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_NeckWear_Season" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_Outfit_NeckWear" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_OuterWear_Occasion" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_Top_Occasion" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_OuterWear_Season" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_Outfit_OuterWear" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_Outfit_Top" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsWardrobeModel.FK_Top_Season" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

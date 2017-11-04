@@ -1,0 +1,66 @@
+﻿@model DrWardrobe.Models.NeckWear
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NeckWear</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Color.ColorFamily)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Color.ColorFamily)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Occasion.OccasionType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Occasion.OccasionType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Season.SeasonName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Season.SeasonName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NeckWearName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NeckWearName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NeckWearPhotoURL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NeckWearPhotoURL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NeckWearType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NeckWearType)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.NeckWearID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
