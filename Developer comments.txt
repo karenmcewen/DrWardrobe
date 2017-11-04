@@ -1,0 +1,20 @@
+Notes by Karen McEwen 11/4/2017
+
+BOOTSTRAP
+*tried to use two different bootswatch templates, kept getting errors for EVERY line that : were missing, so I deleted them
+*after doing so and resetting my bundleconfig.cs, 
+	in bootstrap.css I began getting an error that lines 2016 and 5165 were not known property names
+	I checked them and they looked like all the similar lines, so eventually I just commented them out 
+	to make the green lines go away. will probably have to fix this later
+
+IMAGES
+*all images are subject to copyright, mostly from the BBC.  Since this isn't going out on a live site, I didn't worry about it.
+*I have started editing all images to be the same width of 400px before adding them to the images folder
+
+DATABASE
+*the data exists when I open in Google, even after shutting down the program
+however, it is not showing up in my SSMS database.
+It could be because they have different names?
+perhaps I missed a connection when i was building the script?
+I went to the EDMX file and updated the tables from the database (do I need to do the opposite?)
+I had to restart this project several times...
