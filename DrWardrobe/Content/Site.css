@@ -22,6 +22,21 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/* This creates the background image for the header on the Index pages*/
+.backgroundImgCategoryIndex {
+    background-image: url('../Images/MedusaCascade.jpg');
+    
+    background-repeat:repeat;
+    background-size:cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: ghostwhite;
+    text-align: center;
+    font-size: x-large;
+    font-variant-caps: small-caps;
+}
+    
 /*change button colors on main page*/
 .btn-primary {
   color: #ffffff;
