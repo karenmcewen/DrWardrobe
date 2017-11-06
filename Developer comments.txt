@@ -1,7 +1,8 @@
 Notes by Karen McEwen 11/4/2017
 
 BOOTSTRAP
-*tried to use two different bootswatch templates, kept getting errors for EVERY line that : were missing, so I deleted them
+*tried to use three different bootswatch templates, kept getting errors for EVERY line that : were missing, so I deleted them
+?is there a limit to how many bootswatch templates you are allowed to use?
 *after doing so and resetting my bundleconfig.cs, 
 	in bootstrap.css I began getting an error that lines 2016 and 5165 were not known property names
 	I checked them and they looked like all the similar lines, so eventually I just commented them out 
@@ -18,3 +19,10 @@ It could be because they have different names?
 perhaps I missed a connection when i was building the script?
 I went to the EDMX file and updated the tables from the database (do I need to do the opposite?)
 I had to restart this project several times...
+
+Still to do:
+-change the heading names for all of the tables (yes, some still have tables, but I added pics!)
+-add background picture to the navbar on all pages
+-change background color on all pages
+-change font color for "create new" option on most pages
+

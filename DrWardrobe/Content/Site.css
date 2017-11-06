@@ -27,13 +27,14 @@ textarea {
 
 /* This creates the background image for the header on the Index pages*/
 .backgroundImgCategoryIndex {
-    background-image: url('../Images/MedusaCascade.jpg');
-    
-    background-repeat:repeat;
+    background-image: url('../Images/MedusaCascade.jpg');    
+    background-repeat:no-repeat;
     background-size:cover;
     padding-top: 100px;
     padding-bottom: 100px;
-    color: ghostwhite;
+    padding-left:20px;
+    padding-right:20px;
+    color: ghostwhite;    
     text-align: center;
     font-size: x-large;
     font-variant-caps: small-caps;
@@ -63,7 +64,8 @@ textarea {
     padding: 0;
 }
 body {
-    background: rgb(123, 158, 158);
+    
+    background-color:dodgerblue;
 }
 #hexGrid {
   display: flex;

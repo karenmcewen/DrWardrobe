@@ -1,17 +1,13 @@
 ﻿@model IEnumerable<DrWardrobe.Models.Accessory>
 
-@*@{
+@{
     ViewBag.Title = "ACCESSORIES";
-}*@
+}
 
 <!--adding an image to the header using background class "backgroundImgCategoryIndex"
        image and styling goes in content\Site.css
        -->
 <div class="backgroundImgCategoryIndex">
-
-   @{
-       ViewBag.Title = "ACCESSORIES";
-}
 
     <p>
         @Html.ActionLink("Create New Accessory", "Create")

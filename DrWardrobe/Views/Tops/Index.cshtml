@@ -4,37 +4,31 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>TOPS</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New Top", "Create")
 </p>
 <table class="table">
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Color.ColorFamily)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Occasion.OccasionType)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Season.SeasonName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.TopName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.TopPhotoURL)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.TopType)
-        </th>
-        <th></th>
+        <th>Top        </th>
+        <th>Type        </th>
+        <th>Color        </th>
+        <th>Occasion        </th>
+        <th>Season        </th>
+        <th>Photo URL        </th>
+        <th>Options</th>
     </tr>
 
 @foreach (var item in Model) {
     <tr>
         <td>
+            @Html.DisplayFor(modelItem => item.TopName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TopType)
+        </td>
+         <td>
             @Html.DisplayFor(modelItem => item.Color.ColorFamily)
         </td>
         <td>
@@ -43,15 +37,11 @@
         <td>
             @Html.DisplayFor(modelItem => item.Season.SeasonName)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.TopName)
-        </td>
+        
         <td>
             @Html.DisplayFor(modelItem => item.TopPhotoURL)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.TopType)
-        </td>
+       
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.TopID }) |
             @Html.ActionLink("Details", "Details", new { id=item.TopID }) |
