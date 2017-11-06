@@ -12,7 +12,7 @@ namespace DrWardrobe.Controllers
 {
     public class OutfitsController : Controller
     {
-        private DrWardrobeContext db = new DrWardrobeContext();
+        private DoctorsWardrobeEntities db = new DoctorsWardrobeEntities();
 
         // GET: Outfits
         public ActionResult Index()

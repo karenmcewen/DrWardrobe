@@ -167,7 +167,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DrWardrobe.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\DrWardrobeContext.cs" />
     <Compile Include="Models\NeckWear.cs">
       <DependentUpon>DrWardrobe.tt</DependentUpon>
     </Compile>
@@ -191,7 +190,6 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="DoctorsWardrobe.sql" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -295,7 +293,6 @@
     <Content Include="Views\NeckWears\Index.cshtml" />
     <Content Include="Views\Occasions\Create.cshtml" />
     <Content Include="Views\Occasions\Delete.cshtml" />
-    <Content Include="Views\Occasions\Details.cshtml" />
     <Content Include="Views\Occasions\Edit.cshtml" />
     <Content Include="Views\Occasions\Index.cshtml" />
     <Content Include="Views\OuterWears\Create.cshtml" />
