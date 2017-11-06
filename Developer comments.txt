@@ -11,6 +11,7 @@ BOOTSTRAP
 IMAGES
 *all images are subject to copyright, mostly from the BBC.  Since this isn't going out on a live site, I didn't worry about it.
 *I have started editing all images to be the same width of 400px before adding them to the images folder
+(not all images were edited thusly)
 
 DATABASE
 *the data exists when I open in Google, even after shutting down the program
@@ -21,8 +22,12 @@ I went to the EDMX file and updated the tables from the database (do I need to d
 I had to restart this project several times...
 
 Still to do:
--change the heading names for all of the tables (yes, some still have tables, but I added pics!)
--add background picture to the navbar on all pages
--change background color on all pages
--change font color for "create new" option on most pages
+-index and details pages for color, occasion, season
+-make sure the database is being sent to git!
+-double check URLs, some are still blanks
+-check responsive layout on ALL pages
+-ask about URLs-I copied the actual URL, sheet said to use ~/content/url (but gabrielle said that didn't work)
 
+why do I keep getting this error when I do git add . (it doesn't seem to affect anything):
+warning: LF will be replaced by CRLF in DrWardrobe/Content/bootstrap.css.
+The file will have its original line endings in your working directory.

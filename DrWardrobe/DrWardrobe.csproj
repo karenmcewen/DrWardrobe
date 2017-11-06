@@ -197,6 +197,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\10.jpg" />
+    <Content Include="Images\11sonic.jpg" />
     <Content Include="Images\11_coat_purple.jpg" />
     <Content Include="Images\11.jpg" />
     <Content Include="Images\11_coat_green.jpg" />
@@ -205,6 +206,7 @@
     <Content Include="Images\3d_glasses.jpg" />
     <Content Include="Images\10_top_blue.jpg" />
     <Content Include="Images\10_bottom_blue.jpg" />
+    <Content Include="Images\David-Tennant-Kilt-001.jpg" />
     <Content Include="Images\hat_brown.jpg" />
     <Content Include="Images\10_top_brown.jpg" />
     <Content Include="Images\coat10.jpg" />
@@ -218,6 +220,7 @@
     <Content Include="Images\9.jpg" />
     <Content Include="Images\10_bottom_brown.jpg" />
     <Content Include="Images\planetOOD.jpg" />
+    <Content Include="Images\sonic11.jpg" />
     <Content Include="Images\tardis 12 roundels.jpg" />
     <Content Include="Images\10all.jpg" />
     <Content Include="Images\4.jpg" />

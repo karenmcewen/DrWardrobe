@@ -4,7 +4,22 @@
     background-color:coral;
 
 }
-
+.outfit {
+    background-image: url('../Images/tardis 12 roundels.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left:20px;
+    padding-right:20px;
+    color: ghostwhite;    
+    text-align: center;
+    font-size: x-large;
+    font-variant-caps: small-caps;
+}
+.outfit table{
+    text-align:center
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -25,7 +40,7 @@ textarea {
     max-width: 280px;
 }
 
-/* This creates the background image for the header on the Index pages*/
+/* This creates the background image for the header on the Details pages*/
 .backgroundImgCategoryIndex {
     background-image: url('../Images/MedusaCascade.jpg');    
     background-repeat:no-repeat;
@@ -65,7 +80,7 @@ textarea {
 }
 body {
     
-    background-color:dodgerblue;
+    background-color:#c07b57;
 }
 #hexGrid {
   display: flex;
@@ -133,8 +148,10 @@ body {
   width: 100%;
   padding: 5%;
   box-sizing:border-box;
-  background-color: rgba(0, 128, 128, 0.8);
-  font-weight: 300;
+  background-color:#4c1c19;
+  color:antiquewhite;
+  font-style:italic;
+  font-weight:bold;
   -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
           transition:          transform .2s ease-out, opacity .3s ease-out;
 }

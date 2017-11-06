@@ -4,90 +4,96 @@
     ViewBag.Title = "ACCESSORIES";
 }
 
-<!--adding an image to the header using background class "backgroundImgCategoryIndex"
-       image and styling goes in content\Site.css
-       -->
-<div class="backgroundImgCategoryIndex">
+<h2>Accessories</h2>
 
-    <p>
-        @Html.ActionLink("Create New Accessory", "Create")
-    </p>
-   
-    <div class="row">
-        @foreach (var item in Model)
-        {
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    @*<img src="..." alt="..."> If I can find a way to input images - stretch task*@
-                    <div class="caption">
-                        <h3>ITEM: @Html.DisplayFor(modelItem => item.AccessoryName)</h3>
-                        <h3>TYPE: @Html.DisplayFor(modelItem => item.AccessoryType)</h3>
+<p>
+    @Html.ActionLink("Create New Accessory", "Create")
+</p>
 
+<ul id="hexGrid">
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="#">
 
-                        <p>
-                            @Html.ActionLink("Details", "Details", new { id = item.AccessoryID }) |
-                            @Html.ActionLink("Edit", "Edit", new { id = item.AccessoryID }) |
-                            @Html.ActionLink("Delete", "Delete", new { id = item.AccessoryID })
+                <img src="~/Images/3d_glasses.jpg" />
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="#">
 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        }
-    </div>
+                <img src="~/Images/sonic11.jpg" />
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="#">
 
-    </div>
+                <img src="~/Images/fez.jpg" />
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="#">
 
-  
-    @*<table class="table">
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Color.ColorFamily)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Occasion.OccasionType)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Season.SeasonName)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.AccessoryName)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.AccessoryPhotoURL)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.AccessoryType)
-                </th>
-                <th></th>
-            </tr>
+                <img src="~/Images/11sonic.jpg" />
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="#">
 
-        @foreach (var item in Model) {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Color.ColorFamily)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Occasion.OccasionType)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Season.SeasonName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.AccessoryName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.AccessoryPhotoURL)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.AccessoryType)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id=item.AccessoryID }) |
-                    @Html.ActionLink("Details", "Details", new { id=item.AccessoryID }) |
-                    @Html.ActionLink("Delete", "Delete", new { id=item.AccessoryID })
-                </td>
-            </tr>
-        }
+                <img src="~/Images/hat_brown.jpg" />
+                        </a>
+        </div>
+    </li>
+</ul>
 
-        </table>*@
+<table class="table">
+    <tr>
+        <th>Accessory        </th>
+        <th>Type        </th>
+        <th>Color        </th>
+        <th>Occasion        </th>
+        <th>Season        </th>
+        <th>Photo URL        </th>
+        <th>Options</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccessoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccessoryType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Color.ColorFamily)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Occasion.OccasionType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Season.SeasonName)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.AccessoryPhotoURL)
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.AccessoryID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.AccessoryID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.AccessoryID })
+            </td>
+        </tr>
+    }
+
+</table>
+
