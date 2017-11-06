@@ -9,55 +9,123 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Color.ColorFamily)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Occasion.OccasionType)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Season.SeasonName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.OuterWearName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.OuterWearPhotoURL)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.OuterWearType)
-        </th>
-        <th></th>
-    </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Color.ColorFamily)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Occasion.OccasionType)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Season.SeasonName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.OuterWearName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.OuterWearPhotoURL)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.OuterWearType)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.OuterWearID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.OuterWearID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.OuterWearID })
-        </td>
-    </tr>
-}
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="site.css">
+    @*<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>*@
+</head>
+<body>
+    <ul id="hexGrid">
+        <li class="hex">
+            <div class="hexIn">
+                <a class="hexLink" href="#">
+                    <img src="~/Images/11 purple coat.jpg" alt="purple coat" />
+                    <h1>Purple Coat</h1>
+                    <p></p>
+                </a>
+            </div>
+        </li>
+        <li class="hex">
+            <div class="hexIn">
+                <a class="hexLink" href="#">
 
-</table>
+                    <img src="~/Images/11th_doctors_green_.jpg" />
+
+                    <h1>Green Coat</h1>
+                    <p></p>
+                </a>
+            </div>
+        </li>
+        <li class="hex">
+            <div class="hexIn">
+                <a class="hexLink" href="#">
+                    <img src="~/Images/12th-coat.jpg" />
+
+                    <h1>Black Coat</h1>
+                    <p></p>
+                </a>
+            </div>
+        </li>
+        <li class="hex">
+            <div class="hexIn">
+                <a class="hexLink" href="#">
+
+
+                    <img src="~/Images/coat10.jpg" />
+                    <h1>Brown Coat</h1>
+                    <p></p>
+                </a>
+            </div>
+        </li>
+        <li class="hex">
+            <div class="hexIn">
+                <a class="hexLink" href="#">
+                    <img src="~/Images/coat9.jpg" />
+
+                    <h1>Black Leather Jacket</h1>
+                    <p></p>
+                </a>
+            </div>
+        </li>
+
+        </ul>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Color.ColorFamily)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Occasion.OccasionType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Season.SeasonName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.OuterWearName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.OuterWearPhotoURL)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.OuterWearType)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Color.ColorFamily)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Occasion.OccasionType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Season.SeasonName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OuterWearName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OuterWearPhotoURL)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OuterWearType)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.OuterWearID }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.OuterWearID }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.OuterWearID })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </body>
+</html>

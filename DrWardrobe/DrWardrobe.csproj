@@ -213,7 +213,6 @@
     <Content Include="Images\hot planet.jpg" />
     <Content Include="Images\MedusaCascade.jpg" />
     <Content Include="Images\ninth_doctor.jpg" />
-    <Content Include="Images\oliver-ruuger-avant-garde-accessories.jpg" />
     <Content Include="Images\pants10.jpg" />
     <Content Include="Images\planet-of-the-dead1.jpg" />
     <Content Include="Images\planetOOD.jpg" />
@@ -311,6 +310,7 @@
     <Content Include="Views\Tops\Details.cshtml" />
     <Content Include="Views\Tops\Edit.cshtml" />
     <Content Include="Views\Tops\Index.cshtml" />
+    <Content Include="Views\ResponsiveHexagonHTML.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
