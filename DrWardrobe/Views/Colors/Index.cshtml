@@ -5,10 +5,112 @@
 }
 
 <h2>Index</h2>
-
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New Color", "Create")
 </p>
+
+<ul id="hexGrid">
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="#">    
+                <img src="~/Images/coat9.jpg" />            
+                <h1>BLACK</h1>
+                <p></p>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="#">
+                <img src="~/Images/10_top_blue.jpg" />
+                <h1>BLUE</h1>
+                <p></p>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="#">
+                <img src="~/Images/10_top_brown.jpg" />
+                <h1>BROWN</h1>
+                <p></p>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="#">
+                <img src="~/Images/11_coat_green.jpg" />
+                <h1>GREEN</h1>
+                <p></p>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="#">
+                <img src="~/Images/scarf.jpg" />
+                <h1>MULTICOLOR</h1>
+                <p></p>
+            </a>
+        </div>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="#">
+                <img src="~/Images/orange suit.jpg" />
+                <h1>ORANGE</h1>
+                <p></p>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="#">
+                <img src="~/Images/fez.jpg" />
+                <h1>RED</h1>
+                <p></p>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="#">
+                <img src="~/Images/sonic11.jpg" />
+                <h1>SILVER</h1>
+                <p></p>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="#">
+                
+                <img src="~/Images/planetOOD.jpg" />
+                <h1>WHITE</h1>
+                <p></p>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="#">
+                <img src="~/Images/hot planet.jpg" />
+                <h1>YELLOW</h1>
+                <p></p>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" href="~/Views/Colors/Create.cshtml">
+                
+                <h1>CREATE A NEW COLOR</h1>
+            </a>
+        </div>
+    </li>
+   
+  </ul>
+@*
 <table class="table">
     <tr>
         <th>
@@ -24,10 +126,10 @@
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ColorID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ColorID }) |
+         
             @Html.ActionLink("Delete", "Delete", new { id=item.ColorID })
         </td>
     </tr>
 }
 
-</table>
+</table>*@

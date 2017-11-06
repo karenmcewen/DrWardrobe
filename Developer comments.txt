@@ -22,7 +22,7 @@ I went to the EDMX file and updated the tables from the database (do I need to d
 I had to restart this project several times...
 
 Still to do:
--index and details pages for color, occasion, season
+-index and details pages for occasion
 -make sure the database is being sent to git!
 -double check URLs, some are still blanks
 -check responsive layout on ALL pages

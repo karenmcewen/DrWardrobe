@@ -196,6 +196,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\1-bluemarble_west.jpg" />
     <Content Include="Images\10.jpg" />
     <Content Include="Images\11sonic.jpg" />
     <Content Include="Images\11_coat_purple.jpg" />
@@ -207,11 +208,14 @@
     <Content Include="Images\10_top_blue.jpg" />
     <Content Include="Images\10_bottom_blue.jpg" />
     <Content Include="Images\David-Tennant-Kilt-001.jpg" />
+    <Content Include="Images\gallifreyan writing.png" />
     <Content Include="Images\hat_brown.jpg" />
     <Content Include="Images\10_top_brown.jpg" />
     <Content Include="Images\coat10.jpg" />
     <Content Include="Images\coat9.jpg" />
     <Content Include="Images\12.jpg" />
+    <Content Include="Images\orange suit.jpg" />
+    <Content Include="Images\psychic paper.jpg" />
     <Content Include="Images\scarf.jpg" />
     <Content Include="Images\bowtie.jpg" />
     <Content Include="Images\fez.jpg" />
@@ -224,6 +228,7 @@
     <Content Include="Images\tardis 12 roundels.jpg" />
     <Content Include="Images\10all.jpg" />
     <Content Include="Images\4.jpg" />
+    <Content Include="Images\tardis console.jpg" />
     <Content Include="Images\top10.jpg" />
     <Content Include="Images\wardrobe.jpg" />
     <Content Include="Models\DrWardrobe.Context.tt">
@@ -268,8 +273,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Accessories\Create.cshtml" />
     <Content Include="Views\Accessories\Delete.cshtml" />
@@ -283,7 +286,6 @@
     <Content Include="Views\Bottoms\Index.cshtml" />
     <Content Include="Views\Colors\Create.cshtml" />
     <Content Include="Views\Colors\Delete.cshtml" />
-    <Content Include="Views\Colors\Details.cshtml" />
     <Content Include="Views\Colors\Edit.cshtml" />
     <Content Include="Views\Colors\Index.cshtml" />
     <Content Include="Views\NeckWears\Create.cshtml" />

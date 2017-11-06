@@ -1409,11 +1409,12 @@ pre code {
 
 table {
   max-width: 100%;
-  background-color: transparent;
+  background-color:none;
+ 
 }
 
 th {
-  text-align: left;
+  text-align: center;
 }
 
 .table {
@@ -4937,7 +4938,7 @@ a.list-group-item.active > .badge,
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #34bd8f;
 }
 
 .jumbotron h1 {

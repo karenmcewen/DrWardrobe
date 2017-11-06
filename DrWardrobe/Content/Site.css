@@ -4,15 +4,30 @@
     background-color:coral;
 
 }
-.outfit {
-    background-image: url('../Images/tardis 12 roundels.jpg');
-    background-repeat:no-repeat;
+
+.contactpage {
+    background-image: url('../Images/psychic paper.jpg');
+     background-repeat:no-repeat;
     background-size:cover;
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left:20px;
     padding-right:20px;
     color: ghostwhite;    
+    text-align: center;
+    font-size: x-large;
+    font-variant-caps: small-caps;
+}
+.outfit {
+   
+    background-image: url('../Images/wardrobe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: ghostwhite;
     text-align: center;
     font-size: x-large;
     font-variant-caps: small-caps;
@@ -57,9 +72,9 @@ textarea {
     
 /*change button colors on main page*/
 .btn-primary {
- color:gold;
-  background-color:indigo;
-   border-color:gold;
+ color:#ffd550;
+  background-color:#34bd8f;
+   border-color:#ffd550;
   display:block;
   align-content:center;
   border-radius: 25%;
@@ -95,7 +110,7 @@ body {
 
 .hex {
   position: relative;
-  visibility:hidden;
+  visibility:visible;
   outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
 }
 .hex::after{
