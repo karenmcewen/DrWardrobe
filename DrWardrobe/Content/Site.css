@@ -1,6 +1,8 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color:coral;
+
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -39,22 +41,14 @@ textarea {
     
 /*change button colors on main page*/
 .btn-primary {
-  color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+ color:gold;
+  background-color:indigo;
+   border-color:gold;
+  display:block;
+  align-content:center;
+  border-radius: 25%;
 }
 
-.btn-primary aqua{
-  color: #ffffff;
-  background-color:aqua;
-  border-color: #357ebd;
-}
-
-.btn-primary royal{
-  color: #ffffff;
-  background-color:royalblue;
-  border-color: #357ebd;
-}
 
 
 /*RESPONSIVE GRID OF HEXAGON.CSS*/
