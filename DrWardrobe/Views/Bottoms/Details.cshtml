@@ -19,16 +19,20 @@
         <div class="thumbnail">
 
             <div class="caption">
-                <h3>ITEM: @Html.DisplayFor(model => model.BottomName)</h3>
-                <h3>TYPE: @Html.DisplayFor(model => model.BottomType)</h3>
-                <h3>COLOR:@Html.DisplayFor(model => model.Color.ColorFamily)</h3>
-                <h3>OCCASION:@Html.DisplayFor(model => model.Occasion.OccasionType)</h3>
-                <h3>SEASON:@Html.DisplayFor(model => model.Season.SeasonName)</h3>
-                <h3>PHOTO URL:@Html.DisplayFor(model => model.BottomPhotoURL)</h3>
-            </div>
+                <div class="col-md-6">
+                    <h3>ITEM: @Html.DisplayFor(model => model.BottomName)</h3>
+                    <h3>TYPE: @Html.DisplayFor(model => model.BottomType)</h3>
+                    <h3>COLOR:@Html.DisplayFor(model => model.Color.ColorFamily)</h3>
+                    <h3>OCCASION:@Html.DisplayFor(model => model.Occasion.OccasionType)</h3>
+                    <h3>SEASON:@Html.DisplayFor(model => model.Season.SeasonName)</h3>
+                </div>
+                <div class="col-md-6">
+                    <h3><img src=@Url.Content(Model.BottomPhotoURL) alt="photo not available" class="detailsIMG"></h3>
+                </div>
         </div>
     </div>
 </div>
+    </div>
 
 
 <p>

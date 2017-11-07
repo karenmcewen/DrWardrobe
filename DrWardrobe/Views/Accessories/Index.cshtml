@@ -84,7 +84,7 @@
             </td>
 
             <td>
-                @Html.DisplayFor(modelItem => item.AccessoryPhotoURL)
+                <img src=@Url.Content(item.AccessoryPhotoURL) alt="photo not available" class="tableIMG">
             </td>
 
             <td>

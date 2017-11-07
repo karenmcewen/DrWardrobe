@@ -5,6 +5,15 @@
 
 }
 
+.tableIMG{
+    max-height:150px;
+
+}
+.detailsIMG{
+    width:400px;
+   border:double;
+   border-color:darkblue;
+}
 .contactpage {
     background-image: url('../Images/psychic paper.jpg');
      background-repeat:no-repeat;
