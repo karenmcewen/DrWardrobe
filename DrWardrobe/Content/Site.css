@@ -172,9 +172,10 @@ body {
   width: 100%;
   padding: 5%;
   box-sizing:border-box;
-  background-color:#4c1c19;
-  color:antiquewhite;
-  font-style:italic;
+  background-color:blue;
+  color:gainsboro;
+  font-style:normal;
+  font-variant:small-caps;
   font-weight:bold;
   -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
           transition:          transform .2s ease-out, opacity .3s ease-out;
