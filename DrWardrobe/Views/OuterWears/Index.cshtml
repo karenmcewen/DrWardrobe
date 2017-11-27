@@ -70,48 +70,49 @@
         </li>
 
         </ul>
-        <table class="table">
-            <tr>
-                <th>Outerwear        </th>
-                <th>Type        </th>
-                <th>Color        </th>
-                <th>Occasion        </th>
-                <th>Season        </th>
-                <th>Photo URL        </th>
-                <th>Options</th>
-            </tr>
-
-            @foreach (var item in Model)
-            {
+        <table class="table indexPageLight">
+            
                 <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.OuterWearName)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.OuterWearType)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Color.ColorFamily)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Occasion.OccasionType)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Season.SeasonName)
-                    </td>
-                   
-                    <td>
-                        <img src=@Url.Content(item.OuterWearPhotoURL) alt="photo not available" class="tableIMG">
-                    </td>
-                    
-                    <td>
-                        @Html.ActionLink("Edit", "Edit", new { id = item.OuterWearID }) |
-                        @Html.ActionLink("Details", "Details", new { id = item.OuterWearID }) |
-                        @Html.ActionLink("Delete", "Delete", new { id = item.OuterWearID })
-                    </td>
+                    <th>Outerwear        </th>
+                    <th>Type        </th>
+                    <th>Color        </th>
+                    <th>Occasion        </th>
+                    <th>Season        </th>
+                    <th>Photo URL        </th>
+                    <th>Options</th>
                 </tr>
-            }
 
-        </table>
+                @foreach (var item in Model)
+            {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.OuterWearName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.OuterWearType)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Color.ColorFamily)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Occasion.OccasionType)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Season.SeasonName)
+                        </td>
+
+                        <td>
+                            <img src=@Url.Content(item.OuterWearPhotoURL) alt="photo not available" class="tableIMG">
+                        </td>
+
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.OuterWearID }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.OuterWearID }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.OuterWearID })
+                        </td>
+                    </tr>
+                }
+
+</table>
     </body>
 @*</html>*@

@@ -81,14 +81,17 @@ textarea {
     
 /*change button colors on main page*/
 .btn-primary {
- color:#ffd550;
-  background-color:#34bd8f;
-   border-color:#ffd550;
+ color:#999999;
+  background-color:#222222;
+   border-color:#999999;
   display:block;
   align-content:center;
   border-radius: 25%;
 }
 
+.indexPageLight{
+    color:#999999;
+}
 
 
 /*RESPONSIVE GRID OF HEXAGON.CSS*/
@@ -104,7 +107,7 @@ textarea {
 }
 body {
     
-    background-color:#c07b57;
+    background-color:#242943;
 }
 #hexGrid {
   display: flex;
@@ -172,7 +175,7 @@ body {
   width: 100%;
   padding: 5%;
   box-sizing:border-box;
-  background-color:blue;
+  background-color:#999999;
   color:gainsboro;
   font-style:normal;
   font-variant:small-caps;

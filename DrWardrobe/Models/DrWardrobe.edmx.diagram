@@ -4,16 +4,16 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="c63cda333962432c89142a0aa8294e96" Name="Diagram1">
-        <EntityTypeShape EntityType="DoctorsWardrobeModel.Accessory" Width="1.5" PointX="2.5" PointY="6.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="DoctorsWardrobeModel.Bottom" Width="1.5" PointX="3.5" PointY="3.5" IsExpanded="true" />
+      <Diagram DiagramId="c63cda333962432c89142a0aa8294e96" Name="Diagram1" ZoomLevel="85">
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.Accessory" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.Bottom" Width="1.5" PointX="2.375" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="DoctorsWardrobeModel.Color" Width="1.5" PointX="0.625" PointY="0.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="DoctorsWardrobeModel.NeckWear" Width="1.5" PointX="5.375" PointY="3.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="DoctorsWardrobeModel.Occasion" Width="1.5" PointX="5.875" PointY="0.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="DoctorsWardrobeModel.OuterWear" Width="1.5" PointX="4.875" PointY="7" IsExpanded="true" />
-        <EntityTypeShape EntityType="DoctorsWardrobeModel.Outfit" Width="1.5" PointX="8.375" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="DoctorsWardrobeModel.Season" Width="1.5" PointX="3.5" PointY="0.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="DoctorsWardrobeModel.Top" Width="1.5" PointX="1.375" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.NeckWear" Width="1.5" PointX="4" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.Occasion" Width="1.5" PointX="4.25" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.OuterWear" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.Outfit" Width="1.5" PointX="7.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.Season" Width="1.5" PointX="2.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsWardrobeModel.Top" Width="1.5" PointX="0.625" PointY="3.75" IsExpanded="true" />
         <AssociationConnector Association="DoctorsWardrobeModel.FK_Accessory_Color" ManuallyRouted="false" />
         <AssociationConnector Association="DoctorsWardrobeModel.FK_Accessory_Occasion" ManuallyRouted="false" />
         <AssociationConnector Association="DoctorsWardrobeModel.FK_Accessory_Season" ManuallyRouted="false" />
